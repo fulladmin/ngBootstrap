@@ -45,7 +45,7 @@ For more information an demos, please click here
 <span class="help-block">
                 If you want to change default value of the directives you can use <code>angular.config</code> method to change directive default value.
                 <br>
-                Each directive has own provider, bay its name. For example tabs has <code>$tabsProvider</code>, modal has $modalProvider etc.
+                Each directive has own provider, by its name. For example tabs has <code>$tabsProvider</code>, modal has $modalProvider etc.
             </span>
 <pre style="background:#002240;color:#fff">angular.module(<span style="color:#3ad900">'</span>ngBootsrap<span style="color:#3ad900">'</span>).config([]<span style="color:#3ad900">'</span>$modalProvider<span style="color:#3ad900">'</span>, <span style="color:#3ad900">'</span>$tooltipProvider<span style="color:#3ad900">'</span>
                 <span style="color:#ffee80">function</span>(<span style="color:#ff9d00">$</span>modalProvider, <span style="color:#ff9d00">$</span>tooltipProvider){
